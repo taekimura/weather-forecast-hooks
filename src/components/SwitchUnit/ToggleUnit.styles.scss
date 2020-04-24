@@ -1,0 +1,57 @@
+:root {
+    --convert-radius: 2rem;
+    --inactive-bg-color: rgba(128,128,128,0.3);
+    --active-bg-color: rgba(250, 253, 250, 0.979);
+    }
+    .button {
+    display: flex;
+    justify-content: right;
+    margin-left: 0;
+    }
+    .convert__animation {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 3.6rem;
+    height: 1.7rem;
+    background: var(--active-bg-color);
+    border-top-right-radius: var(--convert-radius);
+    border-bottom-right-radius: var(--convert-radius);
+    border-top-left-radius: var(--convert-radius);
+    border-bottom-left-radius: var(--convert-radius);
+    }
+    .convert__animation:hover {
+    cursor: pointer;
+    }
+    .unit{
+    margin: 0 7px;
+    color: rgb(85, 84, 84);
+    }
+    .fahrenheit {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.4rem;
+    width: 1.4rem;
+    letter-spacing: 0rem;
+    border-radius: 50%;
+    background: rgb(48, 47, 47);
+    transform: translateX(0.2rem);
+    transition: all 0.002s ease;
+    }
+    .celsius {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.4rem;
+    width: 1.4rem;
+    letter-spacing: 0rem;
+    border-radius: 50%;
+    background: rgb(48, 47, 47);
+    transform: translateX(2.0rem);
+    transition: all 0.002s ease;
+    }

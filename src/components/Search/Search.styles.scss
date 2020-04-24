@@ -1,0 +1,107 @@
+.row{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+    }
+    .colum{
+    width: 100%;
+    text-align : center ;   
+    padding-left: 3%;
+    padding-top: 2%;
+    }
+    .form {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+    height: 35px;
+    width: 25%;
+    padding-left: 1%;
+    }
+    .form::placeholder {
+    color:white;
+    }
+    .form:focus{
+    background-color: transparent;
+    outline: none;
+    }
+    .toggle-2{
+    display: none;
+    }
+    .searchbtn{
+    box-sizing: border-box;
+    margin-left: 2%;
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid rgb(206, 200, 200);
+    cursor: pointer;
+    align-self: center;
+    font-size: 0.8rem;
+    line-height: 0.8;
+    padding: 1em 1.2em;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 60;
+    color:white;
+    background-color: black;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    &:hover {
+    box-shadow: 0 0 40px 40px rgb(155, 150, 150) inset;
+    }
+    }
+    .alert{
+    color: rgb(209, 104, 112);
+    font-weight: 600;
+    }
+    @media only screen and (max-width: 1000px) {
+    .row{
+    padding-top: 5%;
+    }
+    .form {
+    width: 300px;
+    margin-right: 1%;
+    }
+    }
+    @media only screen and (max-width: 800px) {
+    .colum{
+    width: 100%;
+    text-align : center ;   
+    padding-top: 2%;
+    }
+    .toggle-2{
+    float: left;
+    width: 80px;
+    display: block;
+    padding-left: 0%;
+    }
+    .form {
+    margin-left:-60px;
+    width: 30%;
+    margin-right: 3%;
+    }
+    .searchbtn{
+    margin-right: 30%;
+    }}
+    @media only screen and (max-width: 400px) {
+    .row{
+    padding-top: 8%;
+    }
+    .form {
+    margin-left:-20px;
+    width: 50%;
+    }
+    .searchbtn{
+    margin-left: 4%;
+    }
+    .toggle-2{
+    padding-top: 10px;
+    padding-left: 5px;
+    }
+    }
+    @media only screen and (min-width: 1300px) {
+       .row{
+           padding-top: 7%;
+       }
+    } 
+    

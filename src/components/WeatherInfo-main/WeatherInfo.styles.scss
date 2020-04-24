@@ -1,0 +1,46 @@
+.weatherState {
+    display: inline-block;
+    margin: 0;
+    .location{
+    margin-top: 10%;
+    margin-bottom: 6%;
+    color: white;
+    }
+    .date{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    }
+    .weatherdescription {
+    display: inline-block;
+    margin-bottom: 5%;
+    color: white;
+    }
+    .weatherImg {
+        img {
+        margin-top: -1.5em;
+        padding: 0;
+        width: 7em;
+        }
+    }
+    .degree{
+    color: white;
+    margin-bottom: 5%;
+    }
+    h6{
+    color: white;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .namename{
+        font-size: 80px;
+    }
+    .date{
+        font-size: 30px;
+    }
+    .degree{
+        font-size: 30px;
+    } 
+}
