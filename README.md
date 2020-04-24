@@ -1,4 +1,4 @@
-#### :earth_africa: world weather forecast :earth_africa:
+## :earth_africa: world weather forecast :earth_africa:
 React ContextAPI + Hooks using OpenWeatherMap API and Unsplash API, IP Geolocation API, Chart.js 
 
 #### :link:[Live Demo](https://taekimura.github.io/weather-forecast/)
