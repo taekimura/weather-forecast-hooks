@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { OPEN_KEY, UNSPLASH_KEY ,IP_KEY} from "./keycode";
+import { OPEN_KEY, UNSPLASH_KEY ,IP_KEY} from "../config";
 import Unsplash, { toJson } from "unsplash-js";
 import axios from "axios";
 
