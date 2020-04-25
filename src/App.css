@@ -97,4 +97,8 @@ left: 0;
 .searchbtn{
 margin: 0;
 }
+.sidebox{
+height: 71%;
+overflow-y: visible;
+}
 }

@@ -38,11 +38,11 @@
     cursor: pointer;
     align-self: center;
     font-size: 0.8rem;
+    font-weight: 500;
     line-height: 0.8;
     padding: 1em 1.2em;
     text-decoration: none;
     text-align: center;
-    font-weight: 60;
     color:white;
     background-color: black;
     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
@@ -85,7 +85,7 @@
     }}
     @media only screen and (max-width: 400px) {
     .row{
-    padding-top: 8%;
+    padding-top: 6%;
     }
     .form {
     margin-left:-20px;
