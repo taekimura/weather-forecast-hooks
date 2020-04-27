@@ -5,7 +5,7 @@ import './linegraph.styles.scss';
 
 export default function Chart() {
 const appContext = useContext(WeatherContext);
-const { details, chartData_cel, chartData_fah,celciusToFahrenheit, isActive, results, ConvertUTCTimeToLocalTime } = appContext;
+const { results, details, isActive, chartData_cel, chartData_fah, celciusToFahrenheit,  ConvertUTCTimeToLocalTime } = appContext;
 const [chartData, setChartData] = useState({});
 
 const graph = () =>{
@@ -55,7 +55,6 @@ useEffect(() => {
     
     return (
     <div className='graph'>
-        <div className='graph1'>
             {!isActive?(
             <Line 
             data={chartData_cel} 
@@ -128,6 +127,5 @@ useEffect(() => {
         />
         )}
         </div>
-    </div>
     );
 };
